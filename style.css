@@ -1,0 +1,85 @@
+body.touch {
+  overflow: hidden !important;
+  background-color: black;
+  font-family: nintendo;
+}
+
+@font-face {
+    font-family: nintendo;
+    src: url(/guilhem/fonts/dogica.otf)
+}
+
+a[href*="hall"] {
+  background-image: url(/ecole/files/hall.jpg) !important;
+  position: absolute;
+  width: 1091px !important;
+  height: 500px !important;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.item-nav .Button-icon, .item-nav .Button-label {
+    display: none !important;
+}
+
+header.Hero.TagHero {
+    display: none;
+}
+
+
+
+.IndexPage-toolbar {
+    display: none !important;
+}
+
+header#header {
+    background-color: black;
+}
+
+main.App-content {
+    border: none !important;
+}
+
+a.DiscussionListItem-author {
+    display: none !important;
+}
+
+.DiscussionListItem-info li.item-tags {
+    display: none;
+}
+
+.DiscussionListItem-count {
+    display: none;
+}
+
+ul.DiscussionListItem-info {
+    display: none;
+}
+
+li.item-search {
+    display: none;
+}
+
+li[data-id="1"] {
+    position: absolute;
+    left: 11px;
+    top: 81px;
+    background: #8d0a0a;
+}
+
+.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount8 {}
+
+a.DiscussionListItem-main {
+    margin: 0;
+}
+
+.DiscussionListItem-content.Slidable-content.read {
+    padding: 0 !important;
+}
+
+h3.DiscussionListItem-title {
+    margin: 0 !important;
+    color: white !important;
+}
