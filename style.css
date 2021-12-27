@@ -21,6 +21,7 @@ li .active  a {
   left: 0;
   background-repeat: no-repeat !important;
   background-position: left !important;
+  background-size: contain !important;
 }
 
 .item-nav .Button-icon, .item-nav .Button-label {
@@ -84,9 +85,8 @@ h3.DiscussionListItem-title {
     border: blue !important;
 }
 
-.App-composer {}
 
-ul.Dropdown-menu.dropdown-menu li:not(.active) a {background: #ffffff47 !important;width: 150px;height: 150px;border-radius: 80px;position: absolute;display: none;}
+ul.Dropdown-menu.dropdown-menu li:not(.active) a {background: #ffffff47 !important;width: 150px;height: 150px;border-radius: 80px;position: absolute;display: none;z-index: 10;}
 
 .active a.TagLinkButton.hasIcon {
     display: block;
@@ -135,4 +135,24 @@ li.item-tags {
     position: absolute;
     right: 96px;
     text-align: right;
+}
+
+li.item-scrubber {
+    display: none;
+}
+
+header.Hero.DiscussionHero {
+    background: none;
+}
+
+div#flarum-loading {
+    /* display: none !important; */
+}
+
+a.TagLinkButton.hasIcon {}
+
+.facade a[href*="hall"] {
+    display: block !important;
+    left: 429px;
+    top: 288px;
 }
