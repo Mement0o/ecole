@@ -11,13 +11,16 @@ body.touch {
 
 a[href*="hall"] {
   background-image: url(/ecole/files/hall.jpg) !important;
+}
+
+li .active  a {
   position: absolute;
-  width: 1091px !important;
+  width: 2000px !important;
   height: 500px !important;
   top: 0;
   left: 0;
   background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-position: left !important;
 }
 
 .item-nav .Button-icon, .item-nav .Button-label {
@@ -62,14 +65,6 @@ li.item-search {
     display: none;
 }
 
-li[data-id="1"] {
-    position: absolute;
-    left: 11px;
-    top: 81px;
-    background: #00000038;
-    padding-left: 9px;
-    border-radius: 9px;
-}
 
 .ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount8 {}
 
@@ -90,3 +85,54 @@ h3.DiscussionListItem-title {
 }
 
 .App-composer {}
+
+ul.Dropdown-menu.dropdown-menu li:not(.active) a {background: #ffffff47 !important;width: 150px;height: 150px;border-radius: 80px;position: absolute;display: none;}
+
+.active a.TagLinkButton.hasIcon {
+    display: block;
+    pointer-events: none;
+}
+
+a[href*="cour"] {
+    background-image: url(https://inventaire.iledefrance.fr/img/00cd976d-4faf-4270-9469-770f8783c1a7) !important;
+}
+
+.DiscussionPage-list {
+    display: none;
+}
+
+a[href*="gradins"] {
+    background-image: url(https://inventaire.iledefrance.fr/img/dc385f8a-87a8-423a-8bfa-e3af5c4e6633) !important;
+}
+
+div#content {}
+
+a[href*="facade"] {
+    background-image: url(https://media.lesechos.com/api/v1/images/view/609296dd8fe56f7cf52b4318/1280x720/061946883172-web-tete.jpg) !important;
+}
+
+.hall a[href*="facade"] {left: 652px;top: 237px;display: block !important;}
+
+li.item-allDiscussions {
+    display: none !important;
+}
+
+li.item-following {
+    display: none;
+}
+
+li.item-tags {
+    display: none;
+}
+
+.hall a[href*="gradins"] {
+    left: 8px;
+    top: 226px;
+    display: block !important;
+}
+
+.DiscussionList {
+    position: absolute;
+    right: 96px;
+    text-align: right;
+}
