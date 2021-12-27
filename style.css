@@ -1,4 +1,4 @@
-body.touch {
+body {
   overflow: hidden !important;
   background-color: black;
   font-family: nintendo;
@@ -111,7 +111,7 @@ a[href*="facade"] {
     background-image: url(https://media.lesechos.com/api/v1/images/view/609296dd8fe56f7cf52b4318/1280x720/061946883172-web-tete.jpg) !important;
 }
 
-.hall a[href*="facade"] {left: 652px;top: 237px;display: block !important;}
+.hall a[href*="facade"] {left: 600px;top: 333px;display: block !important;}
 
 li.item-allDiscussions {
     display: none !important;
