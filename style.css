@@ -86,7 +86,7 @@ h3.DiscussionListItem-title {
 }
 
 
-ul.Dropdown-menu.dropdown-menu li:not(.active) a {background: #ffffff47 !important;width: 150px;height: 150px;border-radius: 80px;position: absolute;display: none;z-index: 10;}
+.item-nav ul.Dropdown-menu.dropdown-menu li:not(.active) a {background: #ffffff47 !important;width: 150px;height: 150px;border-radius: 80px;position: absolute;display: none;z-index: 10;}
 
 .active a.TagLinkButton.hasIcon {
     display: block;
